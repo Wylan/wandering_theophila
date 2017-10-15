@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  wandering_theophila:
+    build: .
+    depends_on:
+      - memcache
+    env_file: .env
+  memcache:
+    image: memcached
