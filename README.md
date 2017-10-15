@@ -10,4 +10,4 @@ The container requires the following environment variables:
 * `MEMCACHED_PORT` optional port for memcache defaults to 11211.
 * `URLS` comma separated list of urls to watch.
 
-Schedule the container to run periodically using cron, AWS Cloudwatch, Docker Swarm, etc. Be nice to the sites you're monitor, once an hour is probably a good interval.
+Schedule the container to run periodically using cron, AWS Cloudwatch, Docker Swarm, etc. Be nice to the sites you're monitoring, once an hour is probably a good interval.
