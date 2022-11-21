@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     connection_pool (2.2.2)
-    dalli (2.7.10)
+    dalli (3.2.3)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.3)
